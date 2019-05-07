@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\아이템">
+      <UniqueIdentifier>{977e1853-4816-447b-bca8-8b8c43784304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬">
+      <UniqueIdentifier>{e4efc66e-81f1-45ca-a6f3-e01bb019c470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\맵">
+      <UniqueIdentifier>{d8c67c48-6730-48a1-8687-a94538c15027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\플레이어">
+      <UniqueIdentifier>{8b6a7232-0773-4ca5-9618-cd46090319d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\포켓몬스킬">
+      <UniqueIdentifier>{eaf86bcf-e9e1-40e5-a675-87a2fbb3a35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\불">
+      <UniqueIdentifier>{48506e3c-380a-4564-ba0c-f82d3591a12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\풀">
+      <UniqueIdentifier>{2084690c-710f-4d73-a410-9a44daffcca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\물">
+      <UniqueIdentifier>{347d8802-940c-4caa-be6e-5702ab9208c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\전기">
+      <UniqueIdentifier>{c2a409ff-e34d-405d-b22b-75aef5210830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\포켓몬\땅">
+      <UniqueIdentifier>{1c738032-712b-467a-9c7f-ed0b99eea4d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\welCome.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\itemBase.cpp">
+      <Filter>소스 파일\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapBase.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapElectronic.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapForest.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapLake.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapStone.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\mapVolcano.cpp">
+      <Filter>소스 파일\맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\monsterBall.cpp">
+      <Filter>소스 파일\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\player.cpp">
+      <Filter>소스 파일\플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBase.cpp">
+      <Filter>소스 파일\포켓몬</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonFood.cpp">
+      <Filter>소스 파일\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBlastoise.cpp">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBulbasaur.cpp">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonCharizard.cpp">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonCharmander.cpp">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonDiglett.cpp">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonDugtrio.cpp">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonElectrode.cpp">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonGolduck.cpp">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonNinetales.cpp">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonOddish.cpp">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonPikachu.cpp">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonPsyduck.cpp">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonRaichu.cpp">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSandshrew.cpp">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSandslash.cpp">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSquirtle.cpp">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVenusaur.cpp">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVileplume.cpp">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVoltorb.cpp">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVulpix.cpp">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\포켓몬스터\ConsoleApplication9\skill.cpp">
+      <Filter>소스 파일\포켓몬\포켓몬스킬</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mainGame.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\welCome.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\itemBase.h">
+      <Filter>소스 파일\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapBase.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapElectronic.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapForest.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapLake.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapStone.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\mapVolcano.h">
+      <Filter>소스 파일\맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\monsterBall.h">
+      <Filter>소스 파일\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\player.h">
+      <Filter>소스 파일\플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBase.h">
+      <Filter>소스 파일\포켓몬</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonFood.h">
+      <Filter>소스 파일\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBlastoise.h">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonBulbasaur.h">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonCharizard.h">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonCharmander.h">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonDiglett.h">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonDugtrio.h">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonElectrode.h">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonGolduck.h">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonNinetales.h">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonOddish.h">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonPikachu.h">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonPsyduck.h">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonRaichu.h">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSandshrew.h">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSandslash.h">
+      <Filter>소스 파일\포켓몬\땅</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonSquirtle.h">
+      <Filter>소스 파일\포켓몬\물</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVenusaur.h">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVileplume.h">
+      <Filter>소스 파일\포켓몬\풀</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVoltorb.h">
+      <Filter>소스 파일\포켓몬\전기</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\pokemonVulpix.h">
+      <Filter>소스 파일\포켓몬\불</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\포켓몬스터\ConsoleApplication9\skill.h">
+      <Filter>소스 파일\포켓몬\포켓몬스킬</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
